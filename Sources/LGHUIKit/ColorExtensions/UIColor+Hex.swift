@@ -1,5 +1,5 @@
 //
-//  UIColorExtions+Hex.swift
+//  UIColor+Hex.swift
 //  
 //
 //  Created by 梁光辉 on 2022/1/3.
@@ -12,17 +12,17 @@ import UIKit
 
 extension UIColor {
     /// 从十六进制中获取颜色，默认 alpha 为1.0
-    public static func gh_color(fromHex hex: UInt) -> UIColor {
-        return Self.gh_color(fromHex: hex, alpha: 1.0)
+    public static func color(fromHex hex: UInt) -> UIColor {
+        return Self.color(fromHex: hex, alpha: 1.0)
     }
     
     /// 从十六进制中获取颜色
-    public static func gh_color(fromHex hex: UInt, alpha: CGFloat) -> UIColor {
+    public static func color(fromHex hex: UInt, alpha: CGFloat) -> UIColor {
         return Self.init(red: CGFloat((hex & 0xFF0000) >> 16) / 255.0, green: CGFloat((hex & 0xFF00) >> 8) / 255.0, blue: CGFloat((hex & 0xFF)) / 255.0, alpha: alpha)
     }
     
     /// 从字符串中获取颜色，其中 alpha 通道可有可无
-    public static func gh_color(withRGBAHex rgba: String) -> UIColor? {
+    public static func color(withRGBAHex rgba: String) -> UIColor? {
         if rgba.count == 0 {
             return nil
         } else {
@@ -69,7 +69,7 @@ extension UIColor {
     }
     
     /// 从字符串中获取颜色，其中 alpha 通道在第一位（alpha 通道可有可无）
-    public static func gh_color(withARGBHex argb: String) -> UIColor? {
+    public static func color(withARGBHex argb: String) -> UIColor? {
         if argb.count == 0 {
             return nil
         } else {

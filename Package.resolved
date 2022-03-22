@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FoundationX",
+        "repositoryURL": "https://github.com/Lguanghui/FoundationX",
+        "state": {
+          "branch": "master",
+          "revision": "cdb6e233d7f71a94cd9c4f072b9cd2dcf6d1184b",
+          "version": null
+        }
+      },
+      {
+        "package": "SnapKit",
+        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
+        "state": {
+          "branch": null,
+          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
