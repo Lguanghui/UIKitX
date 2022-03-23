@@ -1,3 +1,3 @@
-# LGHUIKit
+# LoveUIKit
 
-A description of this package.
+A library for extensions of UIKit and effective codes.
