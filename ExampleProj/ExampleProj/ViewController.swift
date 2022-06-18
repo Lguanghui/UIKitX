@@ -7,8 +7,7 @@
 
 import UIKit
 import SnapKit
-import GHFoundation
-
+import FoundationX
 import LoveUIKit
 
 class rootViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {

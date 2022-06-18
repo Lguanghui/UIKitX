@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "GHFoundation",
-        "repositoryURL": "https://github.com/Lguanghui/GHFoundation",
+        "package": "FoundationX",
+        "repositoryURL": "https://github.com/Lguanghui/FoundationX.git",
         "state": {
           "branch": "master",
-          "revision": "f27b4b09fe92f30fa0b9943dfef0a4d064c84511",
+          "revision": "42007b02f23f24263a46f53bdc51ab0eeb68d9ee",
           "version": null
         }
       },

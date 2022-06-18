@@ -13,10 +13,10 @@
 		BE5E1D5527BC9BC00056B588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5E1D5327BC9BC00056B588 /* Main.storyboard */; };
 		BE5E1D5727BC9BC00056B588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5E1D5627BC9BC00056B588 /* Assets.xcassets */; };
 		BE5E1D5A27BC9BC00056B588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5E1D5827BC9BC00056B588 /* LaunchScreen.storyboard */; };
-		BE5E1D6427BC9DB20056B588 /* LGHUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE5E1D6327BC9DB20056B588 /* LGHUIKit */; };
 		BE5E1D6727BCA2B80056B588 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D6627BCA2B80056B588 /* ImageCropViewController.swift */; };
 		BE5E1D6B27BCCE9B0056B588 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE5E1D6A27BCCE9B0056B588 /* SnapKit */; };
-		BE5E1D6E27BCCEDC0056B588 /* GHFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = BE5E1D6D27BCCEDC0056B588 /* GHFoundation */; };
+		BE97CADB285E354F006EF64C /* LoveUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE97CADA285E354F006EF64C /* LoveUIKit */; };
+		BE97CADF285E373E006EF64C /* FoundationX in Frameworks */ = {isa = PBXBuildFile; productRef = BE97CADE285E373E006EF64C /* FoundationX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		BE5E1D5627BC9BC00056B588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE5E1D5927BC9BC00056B588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE5E1D5B27BC9BC00056B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE5E1D6527BC9DB90056B588 /* LGHUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LGHUIKit; path = ..; sourceTree = "<group>"; };
 		BE5E1D6627BCA2B80056B588 /* ImageCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
+		BE97CADC285E3577006EF64C /* LoveUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LoveUIKit; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +37,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5E1D6427BC9DB20056B588 /* LGHUIKit in Frameworks */,
 				BE5E1D6B27BCCE9B0056B588 /* SnapKit in Frameworks */,
-				BE5E1D6E27BCCEDC0056B588 /* GHFoundation in Frameworks */,
+				BE97CADF285E373E006EF64C /* FoundationX in Frameworks */,
+				BE97CADB285E354F006EF64C /* LoveUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,7 +49,7 @@
 		BE5E1D4127BC9BBF0056B588 = {
 			isa = PBXGroup;
 			children = (
-				BE5E1D6527BC9DB90056B588 /* LGHUIKit */,
+				BE97CADC285E3577006EF64C /* LoveUIKit */,
 				BE5E1D4C27BC9BC00056B588 /* ExampleProj */,
 				BE5E1D4B27BC9BC00056B588 /* Products */,
 			);
@@ -103,9 +103,9 @@
 			);
 			name = ExampleProj;
 			packageProductDependencies = (
-				BE5E1D6327BC9DB20056B588 /* LGHUIKit */,
 				BE5E1D6A27BCCE9B0056B588 /* SnapKit */,
-				BE5E1D6D27BCCEDC0056B588 /* GHFoundation */,
+				BE97CADA285E354F006EF64C /* LoveUIKit */,
+				BE97CADE285E373E006EF64C /* FoundationX */,
 			);
 			productName = ExampleProj;
 			productReference = BE5E1D4A27BC9BC00056B588 /* ExampleProj.app */;
@@ -136,9 +136,9 @@
 			);
 			mainGroup = BE5E1D4127BC9BBF0056B588;
 			packageReferences = (
-				BE5E1D6227BC9DB20056B588 /* XCRemoteSwiftPackageReference "LGHUIKit" */,
 				BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				BE5E1D6C27BCCEDC0056B588 /* XCRemoteSwiftPackageReference "GHFoundation" */,
+				BE97CAD9285E354F006EF64C /* XCRemoteSwiftPackageReference "LoveUIKit" */,
+				BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */,
 			);
 			productRefGroup = BE5E1D4B27BC9BC00056B588 /* Products */;
 			projectDirPath = "";
@@ -394,14 +394,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BE5E1D6227BC9DB20056B588 /* XCRemoteSwiftPackageReference "LGHUIKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lguanghui/LGHUIKit";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -410,9 +402,17 @@
 				minimumVersion = 5.0.1;
 			};
 		};
-		BE5E1D6C27BCCEDC0056B588 /* XCRemoteSwiftPackageReference "GHFoundation" */ = {
+		BE97CAD9285E354F006EF64C /* XCRemoteSwiftPackageReference "LoveUIKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lguanghui/GHFoundation";
+			repositoryURL = "https://github.com/Lguanghui/LoveUIKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lguanghui/FoundationX";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -421,20 +421,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BE5E1D6327BC9DB20056B588 /* LGHUIKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BE5E1D6227BC9DB20056B588 /* XCRemoteSwiftPackageReference "LGHUIKit" */;
-			productName = LGHUIKit;
-		};
 		BE5E1D6A27BCCE9B0056B588 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		BE5E1D6D27BCCEDC0056B588 /* GHFoundation */ = {
+		BE97CADA285E354F006EF64C /* LoveUIKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BE5E1D6C27BCCEDC0056B588 /* XCRemoteSwiftPackageReference "GHFoundation" */;
-			productName = GHFoundation;
+			package = BE97CAD9285E354F006EF64C /* XCRemoteSwiftPackageReference "LoveUIKit" */;
+			productName = LoveUIKit;
+		};
+		BE97CADE285E373E006EF64C /* FoundationX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */;
+			productName = FoundationX;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
