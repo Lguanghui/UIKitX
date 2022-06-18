@@ -1,4 +1,4 @@
-public struct LGHUIKit {
+public struct LoveUIKit {
     public private(set) var text = "Hello, World!"
 
     public init() {

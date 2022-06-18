@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import LGHUIKit
+import LoveUIKit
 
 final class ImageCropViewController: UIViewController {
 

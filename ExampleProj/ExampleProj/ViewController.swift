@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 import GHFoundation
 
-import LGHUIKit
+import LoveUIKit
 
 class rootViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
