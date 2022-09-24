@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LoveUIKit"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.4"
   spec.summary      = "LoveUIKit."
   spec.swift_version = '5.0'
 
