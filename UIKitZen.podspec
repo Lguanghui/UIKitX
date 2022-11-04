@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UIKitZen"
-  spec.version      = "0.0.5"
+  spec.version      = "0.1.0"
   spec.summary      = "UIKitZen."
   spec.swift_version = '5.0'
 
