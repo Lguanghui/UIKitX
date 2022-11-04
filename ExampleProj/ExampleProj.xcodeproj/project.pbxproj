@@ -15,8 +15,8 @@
 		BE5E1D5A27BC9BC00056B588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE5E1D5827BC9BC00056B588 /* LaunchScreen.storyboard */; };
 		BE5E1D6727BCA2B80056B588 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D6627BCA2B80056B588 /* ImageCropViewController.swift */; };
 		BE5E1D6B27BCCE9B0056B588 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE5E1D6A27BCCE9B0056B588 /* SnapKit */; };
-		BE97CADB285E354F006EF64C /* LoveUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE97CADA285E354F006EF64C /* LoveUIKit */; };
 		BE97CADF285E373E006EF64C /* FoundationX in Frameworks */ = {isa = PBXBuildFile; productRef = BE97CADE285E373E006EF64C /* FoundationX */; };
+		BEC936FA291540CF0051C703 /* UIKitZen in Frameworks */ = {isa = PBXBuildFile; productRef = BEC936F9291540CF0051C703 /* UIKitZen */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,7 @@
 			files = (
 				BE5E1D6B27BCCE9B0056B588 /* SnapKit in Frameworks */,
 				BE97CADF285E373E006EF64C /* FoundationX in Frameworks */,
-				BE97CADB285E354F006EF64C /* LoveUIKit in Frameworks */,
+				BEC936FA291540CF0051C703 /* UIKitZen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +102,8 @@
 			name = ExampleProj;
 			packageProductDependencies = (
 				BE5E1D6A27BCCE9B0056B588 /* SnapKit */,
-				BE97CADA285E354F006EF64C /* LoveUIKit */,
 				BE97CADE285E373E006EF64C /* FoundationX */,
+				BEC936F9291540CF0051C703 /* UIKitZen */,
 			);
 			productName = ExampleProj;
 			productReference = BE5E1D4A27BC9BC00056B588 /* ExampleProj.app */;
@@ -135,8 +135,8 @@
 			mainGroup = BE5E1D4127BC9BBF0056B588;
 			packageReferences = (
 				BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				BE97CAD9285E354F006EF64C /* XCRemoteSwiftPackageReference "LoveUIKit" */,
 				BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */,
+				BEC936F8291540CF0051C703 /* XCRemoteSwiftPackageReference "UIKitZen" */,
 			);
 			productRefGroup = BE5E1D4B27BC9BC00056B588 /* Products */;
 			projectDirPath = "";
@@ -400,17 +400,17 @@
 				minimumVersion = 5.0.1;
 			};
 		};
-		BE97CAD9285E354F006EF64C /* XCRemoteSwiftPackageReference "LoveUIKit" */ = {
+		BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lguanghui/LoveUIKit";
+			repositoryURL = "https://github.com/Lguanghui/FoundationX";
 			requirement = {
 				branch = master;
 				kind = branch;
 			};
 		};
-		BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */ = {
+		BEC936F8291540CF0051C703 /* XCRemoteSwiftPackageReference "UIKitZen" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lguanghui/FoundationX";
+			repositoryURL = "https://github.com/Lguanghui/UIKitZen";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -424,15 +424,15 @@
 			package = BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
-		BE97CADA285E354F006EF64C /* LoveUIKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BE97CAD9285E354F006EF64C /* XCRemoteSwiftPackageReference "LoveUIKit" */;
-			productName = LoveUIKit;
-		};
 		BE97CADE285E373E006EF64C /* FoundationX */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */;
 			productName = FoundationX;
+		};
+		BEC936F9291540CF0051C703 /* UIKitZen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEC936F8291540CF0051C703 /* XCRemoteSwiftPackageReference "UIKitZen" */;
+			productName = UIKitZen;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
