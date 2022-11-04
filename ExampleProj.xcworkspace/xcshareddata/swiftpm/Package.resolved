@@ -1,25 +1,32 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "FoundationX",
-        "repositoryURL": "https://github.com/Lguanghui/FoundationX.git",
-        "state": {
-          "branch": "master",
-          "revision": "42007b02f23f24263a46f53bdc51ab0eeb68d9ee",
-          "version": null
-        }
-      },
-      {
-        "package": "SnapKit",
-        "repositoryURL": "https://github.com/SnapKit/SnapKit.git",
-        "state": {
-          "branch": null,
-          "revision": "d458564516e5676af9c70b4f4b2a9178294f1bc6",
-          "version": "5.0.1"
-        }
+  "pins" : [
+    {
+      "identity" : "foundationx",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lguanghui/FoundationX",
+      "state" : {
+        "branch" : "master",
+        "revision" : "42007b02f23f24263a46f53bdc51ab0eeb68d9ee"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "loveuikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lguanghui/LoveUIKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c5538d5d8225d25c7cb9a9d596633c1200400442"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "d458564516e5676af9c70b4f4b2a9178294f1bc6",
+        "version" : "5.0.1"
+      }
+    }
+  ],
+  "version" : 2
 }

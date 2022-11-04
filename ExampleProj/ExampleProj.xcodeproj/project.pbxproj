@@ -29,7 +29,6 @@
 		BE5E1D5927BC9BC00056B588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE5E1D5B27BC9BC00056B588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE5E1D6627BCA2B80056B588 /* ImageCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
-		BE97CADC285E3577006EF64C /* LoveUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LoveUIKit; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +48,6 @@
 		BE5E1D4127BC9BBF0056B588 = {
 			isa = PBXGroup;
 			children = (
-				BE97CADC285E3577006EF64C /* LoveUIKit */,
 				BE5E1D4C27BC9BC00056B588 /* ExampleProj */,
 				BE5E1D4B27BC9BC00056B588 /* Products */,
 			);
