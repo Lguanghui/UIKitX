@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "UIKitZen"
+  spec.name         = "UIKitX"
   spec.version      = "0.2.0"
-  spec.summary      = "UIKitZen."
+  spec.summary      = "UIKitX."
   spec.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
                       A library for extensions of UIKit and many effective codes.
                    DESC
 
-  spec.homepage     = "https://github.com/Lguanghui/UIKitZen.git"
+  spec.homepage     = "https://github.com/Lguanghui/UIKitX.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Lguanghui/UIKitZen.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Lguanghui/UIKitX.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "UIKitZen",
+    name: "UIKitX",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "UIKitZen",
-            targets: ["UIKitZen"]),
+            name: "UIKitX",
+            targets: ["UIKitX"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -21,10 +21,10 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "UIKitZen",
+            name: "UIKitX",
             dependencies: []),
         .testTarget(
-            name: "UIKitZenTests",
-            dependencies: ["UIKitZen"]),
+            name: "UIKitXTests",
+            dependencies: ["UIKitX"]),
     ]
 )

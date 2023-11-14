@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE15F8112B0317F200DBA78F /* UIKitZen in Frameworks */ = {isa = PBXBuildFile; productRef = BE15F8102B0317F200DBA78F /* UIKitZen */; };
 		BE5E1D4E27BC9BC00056B588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D4D27BC9BC00056B588 /* AppDelegate.swift */; };
 		BE5E1D5027BC9BC00056B588 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D4F27BC9BC00056B588 /* SceneDelegate.swift */; };
 		BE5E1D5227BC9BC00056B588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D5127BC9BC00056B588 /* ViewController.swift */; };
@@ -16,7 +17,6 @@
 		BE5E1D6727BCA2B80056B588 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D6627BCA2B80056B588 /* ImageCropViewController.swift */; };
 		BE5E1D6B27BCCE9B0056B588 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE5E1D6A27BCCE9B0056B588 /* SnapKit */; };
 		BE97CADF285E373E006EF64C /* FoundationX in Frameworks */ = {isa = PBXBuildFile; productRef = BE97CADE285E373E006EF64C /* FoundationX */; };
-		BEC936FA291540CF0051C703 /* UIKitZen in Frameworks */ = {isa = PBXBuildFile; productRef = BEC936F9291540CF0051C703 /* UIKitZen */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE5E1D6B27BCCE9B0056B588 /* SnapKit in Frameworks */,
+				BE15F8112B0317F200DBA78F /* UIKitZen in Frameworks */,
 				BE97CADF285E373E006EF64C /* FoundationX in Frameworks */,
-				BEC936FA291540CF0051C703 /* UIKitZen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			packageProductDependencies = (
 				BE5E1D6A27BCCE9B0056B588 /* SnapKit */,
 				BE97CADE285E373E006EF64C /* FoundationX */,
-				BEC936F9291540CF0051C703 /* UIKitZen */,
+				BE15F8102B0317F200DBA78F /* UIKitZen */,
 			);
 			productName = ExampleProj;
 			productReference = BE5E1D4A27BC9BC00056B588 /* ExampleProj.app */;
@@ -136,7 +136,7 @@
 			packageReferences = (
 				BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */,
-				BEC936F8291540CF0051C703 /* XCRemoteSwiftPackageReference "UIKitZen" */,
+				BE15F80F2B0317F200DBA78F /* XCRemoteSwiftPackageReference "UIKitX" */,
 			);
 			productRefGroup = BE5E1D4B27BC9BC00056B588 /* Products */;
 			projectDirPath = "";
@@ -392,6 +392,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BE15F80F2B0317F200DBA78F /* XCRemoteSwiftPackageReference "UIKitX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lguanghui/UIKitX";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -408,17 +416,14 @@
 				kind = branch;
 			};
 		};
-		BEC936F8291540CF0051C703 /* XCRemoteSwiftPackageReference "UIKitZen" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Lguanghui/UIKitZen";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BE15F8102B0317F200DBA78F /* UIKitZen */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE15F80F2B0317F200DBA78F /* XCRemoteSwiftPackageReference "UIKitX" */;
+			productName = UIKitZen;
+		};
 		BE5E1D6A27BCCE9B0056B588 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BE5E1D6927BCCE9B0056B588 /* XCRemoteSwiftPackageReference "SnapKit" */;
@@ -428,11 +433,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BE97CADD285E373E006EF64C /* XCRemoteSwiftPackageReference "FoundationX" */;
 			productName = FoundationX;
-		};
-		BEC936F9291540CF0051C703 /* UIKitZen */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BEC936F8291540CF0051C703 /* XCRemoteSwiftPackageReference "UIKitZen" */;
-			productName = UIKitZen;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

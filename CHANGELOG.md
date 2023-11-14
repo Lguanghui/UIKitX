@@ -38,9 +38,9 @@
 - init
 
 
-[Unreleased]: https://github.com/Lguanghui/UIKitZen/compare/v0.1.1...HEAD
-[v0.1.1]: https://github.com/Lguanghui/UIKitZen/compare/0.1.0...v0.1.1
-[0.1.0]: https://github.com/Lguanghui/UIKitZen/compare/0.0.5...0.1.0
-[0.0.5]: https://github.com/Lguanghui/UIKitZen/compare/0.0.4...0.0.5
-[0.0.4]: https://github.com/Lguanghui/UIKitZen/compare/0.0.2...0.0.4
-[0.0.2]: https://github.com/Lguanghui/UIKitZen/compare/0.0.1...0.0.2
+[Unreleased]: https://github.com/Lguanghui/UIKitX/compare/v0.1.1...HEAD
+[v0.1.1]: https://github.com/Lguanghui/UIKitX/compare/0.1.0...v0.1.1
+[0.1.0]: https://github.com/Lguanghui/UIKitX/compare/0.0.5...0.1.0
+[0.0.5]: https://github.com/Lguanghui/UIKitX/compare/0.0.4...0.0.5
+[0.0.4]: https://github.com/Lguanghui/UIKitX/compare/0.0.2...0.0.4
+[0.0.2]: https://github.com/Lguanghui/UIKitX/compare/0.0.1...0.0.2

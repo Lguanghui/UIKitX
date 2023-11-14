@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 import FoundationX
-import UIKitZen
+import UIKitX
 
 class rootViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {

@@ -1,6 +1,6 @@
 //
-//  UZGradientView.swift
-//  UIKitZen
+//  UXGradientView.swift
+//  UIKitX
 //
 //  Created by 梁光辉 on 2023/11/13.
 //
@@ -8,7 +8,7 @@
 import UIKit
 
 @objcMembers
-public class UZGradientView: UIView {
+public class UXGradientView: UIView {
 
     public override class var layerClass: AnyClass {
         return CAGradientLayer.self

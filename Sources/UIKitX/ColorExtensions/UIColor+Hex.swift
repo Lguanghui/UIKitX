@@ -1,6 +1,6 @@
 //
 //  UIColor+Hex.swift
-//  UIKitZen
+//  UIKitX
 //
 //  Created by 梁光辉 on 2022/1/3.
 //

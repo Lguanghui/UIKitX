@@ -19,12 +19,12 @@
       }
     },
     {
-      "identity" : "uikitzen",
+      "identity" : "uikitx",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Lguanghui/UIKitZen",
+      "location" : "https://github.com/Lguanghui/UIKitX",
       "state" : {
         "branch" : "master",
-        "revision" : "c9c7c345ba1dd952a145be28fef344ddde1f333b"
+        "revision" : "079a8c9fc2df8669121a7f29a52d732d16072956"
       }
     }
   ],

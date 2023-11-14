@@ -1,11 +1,10 @@
 import XCTest
-@testable import UIKitZen
+@testable import UIKitX
 
-final class UIKitZenTests: XCTestCase {
+final class UIKitXTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(UIKitZen().text, "Hello, World!")
     }
 }
