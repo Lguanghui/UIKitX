@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE15F8112B0317F200DBA78F /* UIKitZen in Frameworks */ = {isa = PBXBuildFile; productRef = BE15F8102B0317F200DBA78F /* UIKitZen */; };
+		BE15F8142B03187E00DBA78F /* UIKitX in Frameworks */ = {isa = PBXBuildFile; productRef = BE15F8132B03187E00DBA78F /* UIKitX */; };
 		BE5E1D4E27BC9BC00056B588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D4D27BC9BC00056B588 /* AppDelegate.swift */; };
 		BE5E1D5027BC9BC00056B588 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D4F27BC9BC00056B588 /* SceneDelegate.swift */; };
 		BE5E1D5227BC9BC00056B588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E1D5127BC9BC00056B588 /* ViewController.swift */; };
@@ -36,8 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE15F8142B03187E00DBA78F /* UIKitX in Frameworks */,
 				BE5E1D6B27BCCE9B0056B588 /* SnapKit in Frameworks */,
-				BE15F8112B0317F200DBA78F /* UIKitZen in Frameworks */,
 				BE97CADF285E373E006EF64C /* FoundationX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,11 +45,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE15F8122B03187E00DBA78F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE5E1D4127BC9BBF0056B588 = {
 			isa = PBXGroup;
 			children = (
 				BE5E1D4C27BC9BC00056B588 /* ExampleProj */,
 				BE5E1D4B27BC9BC00056B588 /* Products */,
+				BE15F8122B03187E00DBA78F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +111,7 @@
 			packageProductDependencies = (
 				BE5E1D6A27BCCE9B0056B588 /* SnapKit */,
 				BE97CADE285E373E006EF64C /* FoundationX */,
-				BE15F8102B0317F200DBA78F /* UIKitZen */,
+				BE15F8132B03187E00DBA78F /* UIKitX */,
 			);
 			productName = ExampleProj;
 			productReference = BE5E1D4A27BC9BC00056B588 /* ExampleProj.app */;
@@ -419,10 +427,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BE15F8102B0317F200DBA78F /* UIKitZen */ = {
+		BE15F8132B03187E00DBA78F /* UIKitX */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BE15F80F2B0317F200DBA78F /* XCRemoteSwiftPackageReference "UIKitX" */;
-			productName = UIKitZen;
+			productName = UIKitX;
 		};
 		BE5E1D6A27BCCE9B0056B588 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
