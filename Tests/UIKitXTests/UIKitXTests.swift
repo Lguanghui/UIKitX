@@ -7,4 +7,9 @@ final class UIKitXTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
     }
+    
+    func testInsetLabelAPI() throws {
+        let label = UXInsetLabel(contentInset: .init(top: 2, left: 3, bottom: 2, right: 3))
+        print(label.contentInset)
+    }
 }
